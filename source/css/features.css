@@ -1,0 +1,39 @@
+/* sizes of div box for background of the featured */
+/*
+main-1 = size 1 = largest
+main-2 = size 1 = medium
+main-3 = size 1 = smallest
+*/
+
+
+
+/* title of features */
+div.main-1 h2, div.main-2 h2, div.main-3 h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* size of div box for background of the features */
+div.main-1 {
+	width: 95%;
+}
+
+/* size of div box for background of the features */
+div.main-2 {
+	width: 75%;
+}
+
+/* size of div box for background of the features */
+div.main-3 {
+	width: 40%;
+}
+
+/* position of the div boxes */
+div.main-1, div.main-2, div.main-3 {
+	border: 1px solid black;
+	clear: both;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}

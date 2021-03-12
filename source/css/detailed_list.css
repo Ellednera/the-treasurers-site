@@ -1,0 +1,106 @@
+div.main-1 table{
+	width: 90%;
+	border-collapse: collapse;
+	margin-left: 2%;
+	margin-bottom: 3%;
+}
+
+/* set border width */
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+/* table header - th */
+table tr th {
+	font-size: 18px;
+	padding: 1%;
+	/* height: 18px; */
+}
+
+/* table data - td */
+table tr td {
+	height: 30px;
+}
+
+/* numbering */
+table tr td.number {
+	width: 5%;
+	text-align: center;
+}
+
+/* payments' names */
+table tr td.payment {
+	width: 80%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* payments' price */
+table tr td.price {
+	width: 15%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* "instructions" */
+p {
+	font-size: 18px;
+	text-align: center;
+}
+
+h3.h-name {
+	text-align: center;
+	font-style: italic;
+	text-decoration: none;
+	color: blue;
+}
+
+h3.pmt-type {
+	text-decoration: underline;
+	margin-left: 2%;
+}
+
+/* ordered list */
+ol.details {
+	margin: 0% auto 4% auto;
+}
+
+ol li.details-list {
+	font-size: 18px;
+	margin-bottom: 1%;
+}
+
+/* links in the ordered list */
+ol li.details-list a {
+	text-decoration: none;
+	color: blue;
+	font-style: italic;
+	font-size: 18px;
+}
+
+/* hover - links */
+ol li.details-list a:hover {
+	text-decoration: underline;
+}
+
+/* only when mousing over the DATA */
+table tr.hover:hover {
+	background-color: Lavender;
+}
+
+/* student's debt - message */
+table tr td.debt-msg {
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}
+
+/* no data obtained */
+div.empty {
+	width: 90%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	text-decoration: none;
+	font-style: italic;
+	color: blue;
+}

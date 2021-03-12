@@ -1,0 +1,123 @@
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+}
+
+/* contains about us, login form and notes */
+div.container {
+	margin: 2% auto 0% auto;
+	width: 70%;
+	border: 1px solid black;
+	/* background-color: LightBlue; */
+}
+
+/* about us and notes with "same" width */
+div.container ol {
+	width: 65%;
+}
+
+/* margins for about us and login form */
+div.container div.about-us, div.container div.login {
+	margin-left: 2px;
+	margin-right: 2px;
+	/* height: 500px; */
+}
+
+/* title */
+div.container h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+/* about us */
+div.about-us {
+	width: 69%;
+	float: left;
+	margin-right: 0.5%;
+	border: 1px solid black;
+}
+
+/* margins for the text in about us and login form */
+div.about-us p, div.login p {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+/* login form */
+div.login {
+	width: 29%;
+	float: right;
+	margin-left: 0.5%;
+	border: 1px solid black;
+}
+
+/* about us title */
+div.about-us h2{
+	text-decoration: underline;
+	text-align: center;
+}
+
+/* "notes" title */
+div.container h4{
+	margin: 0px;
+	clear: both;
+}
+
+/* notes */
+div.container ol {
+	margin: 0px;
+}
+
+
+/* login form title */
+div.login form h2{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1%;
+	margin-left: 0px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+/* size of the login form */
+div.login form {
+	width: 200px;
+	/* border: 1px solid black; */
+	margin: 3px auto;
+	text-align: center;
+}
+
+/* text field of the login form */
+div.login form  input[type="text"] {
+	margin-bottom: 5px;
+	width: 180px;
+	height: 30px;
+	font-size: 16px;
+}
+
+/* password field of the login form */
+div.login form input[type="password"] {
+	margin-bottom: 5px;
+	width: 180px;
+	height: 30px;
+	font-size: 16px;
+}
+
+/* login button */
+div.login form input[type="submit"] {
+	width: 180px;
+	height: 30px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+/* error message */
+div.login form span.login-err {
+	font-style: italic;
+	color: red;
+}
+

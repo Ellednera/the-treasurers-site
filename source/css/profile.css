@@ -1,0 +1,25 @@
+div.main-2 table {
+	width: 70%;
+	/* width: auto; */
+	margin: 0px auto 5% auto;
+	border-collapse: collapse;
+}
+
+/* border of the table */
+.main-2 table, .main-2 tr, .main-2 th, .main-2 td {
+	border: 1px solid black;
+}
+
+/* table heading - th */
+div.main-2 table tr th {
+	font-size: 22px;
+	height: 30px;
+}
+
+/* table data - td */
+div.main-2 table tr td {
+	height: 50px;
+	font-size: 18px;
+	padding: 0px 0px 0px 3%;
+	margin: 0px;
+}

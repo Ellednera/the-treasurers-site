@@ -1,0 +1,139 @@
+/* table size, collapse table and position */
+div.main-1 table {
+	width: 80%;
+	border-collapse: collapse;
+	margin-top: 1%;
+	margin-bottom: 4%;
+}
+
+div.main-1 h3 {
+	text-decoration: underline;
+}
+
+/* h3 and table position */
+div.main-1 table, h3 {
+	margin-left: 2%;
+}
+
+/* set border width */
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+/* table header - th */
+table tr th {
+	font-size: 18px;
+	padding: 1%;
+	/* height: 18px; */
+}
+
+/* table data - td */
+table tr td {
+	height: 30px;
+}
+
+/* only when mousing over the DATA */
+table tr.hover:hover {
+	background-color: Lavender;
+}
+
+/* numbering */
+table tr td.number {
+	text-align: center;
+	width: 5%;
+}
+
+/* payment name */
+table tr td.pmt-name {
+	padding: 2px 3px 2px 10px;
+	width: 65%;
+}
+
+/* payment price */
+table tr td.pmt-price {
+	padding: 2px 3px 2px 10px;
+	width: 15%;
+}
+
+/* payment status */
+table tr td.pmt-status {
+	width: 15%;
+	text-align: center;
+}
+
+/* expences name */
+table tr td.exp-name {
+	padding: 2px 3px 2px 10px;
+	width: 80%;
+}
+
+/* expences price */
+table tr td.exp-price {
+	padding: 2px 3px 2px 10px;
+	width: 15%;
+}
+
+/* expences - "total" word */
+table tr td.exp-total-text {
+	text-align: right;
+	padding: 2px 5px 2px 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* expences - total price */
+table tr td.exp-total {
+	padding: 2px 3px 2px 10px;
+	width: 15%;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* name list - class number */
+table tr td.values-center-class-num {
+	text-align: center;
+	width: 13%;
+}
+
+/* name list - students' id */
+table tr td.values-center-id {
+	text-align: center;
+	width: 16%;
+}
+
+/* name list - actual name */
+table tr td.values-pad {
+	/* width: 50%; */
+	padding: 2px 3px 2px 10px;
+}
+
+/* no data obtained - message */
+div.empty {
+	width: 80%;
+	/* border: 1px solid black; */
+	margin-left: 2%;
+	font-style: italic;
+	color: blue;
+}
+
+/* overall list */
+div.overall {
+	width: 80%;
+	/* border: 1px solid black; */
+	margin-left: 2%;
+	margin-top: -2%;
+	margin-bottom: 2%;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+
+div.overall a {
+	color: blue;
+	text-decoration: none;
+}
+
+div.overall a:hover {
+	text-decoration: underline;
+}

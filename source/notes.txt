@@ -1,0 +1,15 @@
+16 MARCH 2017, 1800 hrs
+
+For the dropdown box in admin's page, the following redirections are done:
+1. "treasurer"(default) -> admin.php
+2. "student" -> home.php
+
+In home.php, check for the role of the students. Role values used are 
+reprensented in numbers
+1 -> student
+2 -> treasures
+3 -> school authorities
+4 -> super admin
+
+-------------------------------------------------------------------------------------------
+

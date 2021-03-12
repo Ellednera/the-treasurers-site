@@ -1,0 +1,74 @@
+/* table size, collapse table and position */
+div.main-1 table {
+	width: 80%;
+	border-collapse: collapse;
+	margin: 1% auto 2% auto;
+}
+
+/* hyperlink - when no records are found */
+a.empty {
+	text-decoration: none;
+	font-style: italic;
+	color: blue;
+}
+a.empty:hover {
+	text-decoration: underline;
+}
+
+/* set border width */
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+/* table header - th */
+table tr th {
+	font-size: 18px;
+	padding: 1%;
+	/* height: 18px; */
+}
+
+/* table data - td */
+table tr td {
+	height: 30px;
+}
+
+/* numbering */
+table tr td.number {
+	width: 5%;
+	text-align: center;
+}
+
+/* payment names */
+table tr td.name {
+	width: 65%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* price */
+table tr td.price {
+	width: 15%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* status */
+table tr td.status {
+	width: 15%;
+	text-align: center;
+}
+
+/* class number & id */
+table tr td.values-center {
+	text-align: center;
+	width: 15%;
+}
+
+/* actual name */
+table tr td.values-pad {
+	width: 50%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* only when mousing over the DATA */
+table tr.hover:hover {
+	background-color: Lavender;
+}

@@ -1,0 +1,73 @@
+/* table size, collapse table and position */
+div.main-2 table {
+	width: 50%;
+	border-collapse: collapse;
+	margin: 1% auto 2% auto;
+}
+
+/* table of the form */
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+/* table header - th */
+table tr th {
+	font-size: 18px;
+	padding: 1%;
+	/* height: 18px; */
+}
+
+/* table data - td */
+table tr td {
+	height: 30px;
+}
+
+/* for migrating students */
+form.migrate {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 3%;
+	width: 100%;
+}
+
+/* success message */
+form.migrate span.add-msg {
+	color: blue;
+	font-style: italic;
+	font-size: 16px;
+}
+
+/* text input fields */
+form.migrate input[type="text"] {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+/* "add student" button */
+form.migrate input[type="submit"] {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+}
+
+/* select box */
+form.migrate select {
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+/* dropdown selection */
+form.migrate select option {
+	font-size: 16px;
+	height: 20px;
+}
+
+/* migrate student button */
+form.migrate input[type="submit"] {
+	height: 30px;
+	font-size: 16px;
+}

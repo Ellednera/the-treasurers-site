@@ -1,0 +1,90 @@
+/* table size, collapse table and position */
+div.main-1 table {
+	width: 80%;
+	border-collapse: collapse;
+	margin: 1% auto 2% auto;
+}
+
+/* edits saved - message */
+table tr td.edit-msg {
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	color: blue;
+}
+
+/* set border width */
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+/* table header - th */
+table tr th {
+	font-size: 18px;
+	padding: 1%;
+	/* height: 18px; */
+}
+
+/* table data - td */
+table tr td {
+	height: 30px;
+}
+
+/* checkboxes td */
+table tr td.stu-id-checkbox {
+	text-align: center;
+}
+
+/* checkboxes th and td */ 
+.stu-id-checkbox {
+	display: none;
+}
+
+/* checkboxes */
+table tr td.stu-id-checkbox input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+}
+
+/* numbering */
+table tr td.number {
+	width: 5%;
+	text-align: center;
+}
+
+/* ids that are displayed */
+table tr td.actual-id {
+	width: 15%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* students' actual names */
+table tr td.name {
+	width: 65%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* text fields */
+input[type="text"] {
+	width: 90%;
+	height: 20px;
+	font-size: 16px;
+}
+
+/* "save" button column */
+table tr.save-btn td {
+	text-align: right;
+}
+
+/* "save" button */
+td.save-btn input[type="submit"] {
+	font-size: 16px;
+	height: 30px;
+	width: 60px;
+	margin: 1%;
+}
+
+/* only when mousing over the DATA */
+table tr.hover:hover {
+	background-color: Lavender;
+}

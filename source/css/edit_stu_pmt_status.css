@@ -1,0 +1,136 @@
+/* table size, collapse table and position */
+div.main-1 table {
+	width: 90%;
+	border-collapse: collapse;
+	margin: 1% auto 2% auto;
+}
+
+/* hyperlink - when no records are found */
+a.empty {
+	text-decoration: none;
+	font-style: italic;
+	color: blue;
+}
+a.empty:hover {
+	text-decoration: underline;
+}
+
+/* "instructions" */
+p {
+	font-size: 18px;
+	text-align: center;
+}
+
+/* ordered list */
+ol {
+	margin: 0% auto 4% auto;
+}
+
+ol li.edit-stu-pmt-status {
+	font-size: 18px;
+	margin-bottom: 1%;
+}
+
+/* links in the ordered list */
+ol li.edit-stu-pmt-status a {
+	text-decoration: none;
+	color: blue;
+	font-style: italic;
+	font-size: 18px;
+}
+
+/* hover - links */
+ol li.edit-stu-pmt-status a:hover {
+	text-decoration: underline;
+}
+
+/* h3 - payment title */
+div.main-1 h3 {
+	text-align: center;
+	margin: 5% auto 0% auto;
+	font-style: italic;
+}
+
+/* edits saved - message */
+table tr td.edit-msg {
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	color: blue;
+}
+
+/* set border width */
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+/* table header - th */
+table tr th {
+	font-size: 18px;
+	padding: 1%;
+	/* height: 18px; */
+}
+
+/* table data - td */
+table tr td {
+	height: 30px;
+}
+
+/* numbering */
+table tr td.number {
+	width: 5%;
+	text-align: center;
+}
+
+/* checkboxes td */
+table tr td.pmt-id {
+	text-align: center;
+}
+
+/* checknoxes ths and tds */ 
+.pmt-id{
+	display: none;
+}
+
+/* checkboxes */
+table tr td.pmt-id input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+}
+
+/* students' id */
+table tr td.stu-id {
+	width: 14%;
+	padding: 2px 3px 2px 10px;
+	text-align: center;
+}
+
+/* students' names */
+table tr td.name {
+	width: 65%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* status */
+table tr td.status {
+	width: 16%;
+	text-align: center;
+}
+
+/* "save" button column */
+table tr.save-btn td {
+	text-align: right;
+}
+
+/* "save" button */
+td.save-btn input[type="submit"] {
+	font-size: 16px;
+	height: 30px;
+	width: 60px;
+	margin: 1%;
+}
+
+/* only when mousing over the DATA */
+table tr.hover:hover {
+	background-color: Lavender;
+}

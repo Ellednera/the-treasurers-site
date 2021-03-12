@@ -1,0 +1,72 @@
+/* title - students */
+div.title-s {
+	height: 65px;
+	line-height: 65px;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #f4f4f4;
+}
+
+/* banner - students */
+div.banner-s {
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	background-color: #8f8f8f;
+}
+
+/* banner and title - students */
+div.title-s, div.banner-s {
+	/* width: 100%; */
+	padding-left: 10px;
+}
+
+/* form - admin */
+form.view {
+	float: right;
+	padding-right: 10px;
+}
+
+/* select box */
+form.view select {
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+/* dropdown selection */
+form.view select option {
+	font-size: 16px;
+	height: 20px;
+}
+
+/* change view button */
+form.view input[type="submit"] {
+	height: 30px;
+	font-size: 16px;
+}
+
+/* title - admin */
+/* title for admin will be smaller */
+div.title-a {
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #f4f4f4;
+}
+
+/* banner - admin */
+div.banner-a {
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	background-color: #8f8f8f;
+}
+
+/* banner and title - admin */
+div.title-a, div.banner-a {
+	/* width: 100%; */
+	padding-left: 10px;
+}

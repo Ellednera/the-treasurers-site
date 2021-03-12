@@ -1,0 +1,51 @@
+/* for adding one payment */
+form.add-1 {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 3%;
+	width: 100%;
+}
+
+/* payment successfully added message */
+form.add-1 span.add-msg {
+	color: blue;
+	font-style: italic;
+	font-size: 16px;
+}
+
+/* more than 2 same payment names */
+form.add-1 span.add-err-msg {
+	color: red;
+	font-style: italic;
+	font-size: 16px;
+}
+
+/* status of the payment money */
+form.add-1 span.status {
+	font-size: 16px;
+}
+
+/* payment name & payment price input fields*/
+form.add-1 input[type="text"] {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+/* payment price */
+form.add-1 input.price[type="text"] {
+	/* width: 200px; */
+	/* height: 30px; */
+	/* font-size: 16px; */
+	/* margin-bottom: 5px; */
+	text-align: center;
+}
+
+/* "add payment" button */
+form.add-1 input[type="submit"] {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	margin-top: 5%;
+}

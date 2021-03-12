@@ -1,0 +1,69 @@
+/* table size, collapse table and position */
+div.main-1 table {
+	width: 80%;
+	border-collapse: collapse;
+	margin-top: 1%;
+	margin-bottom: 4%;
+}
+
+div.main-1 h3 {
+	text-decoration: underline;
+}
+
+/* h3 and table position */
+div.main-1 table, h3 {
+	margin-left: 2%;
+}
+
+/* set border width */
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+/* table header - th */
+table tr th {
+	font-size: 18px;
+	padding: 1%;
+	/* height: 18px; */
+}
+
+/* table data - td */
+table tr td {
+	height: 30px;
+}
+
+/* only when mousing over the DATA */
+table tr.hover:hover {
+	background-color: Lavender;
+}
+
+table tr td.number {
+	text-align: center;
+	width: 5%;
+}
+
+table tr td.payment {
+	padding: 2px 3px 2px 10px;
+	width: 75%;
+}
+
+table tr td.price {
+	padding: 2px 3px 2px 10px;
+	width: 20%;
+}
+
+table tr td.debt-msg {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+}
+
+/* no data obtained - message */
+div.empty {
+	width: 80%;
+	margin-left: 2%;
+	font-style: italic;
+	color: blue;
+}

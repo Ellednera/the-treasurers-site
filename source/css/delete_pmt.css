@@ -1,0 +1,97 @@
+/* table size, collapse table and position */
+div.main-1 form table {
+	width: 80%;
+	border-collapse: collapse;
+	margin: 1% auto 2% auto;
+}
+
+/* hyperlink - when no records are found */
+a.empty {
+	text-decoration: none;
+	font-style: italic;
+	color: blue;
+}
+a.empty:hover {
+	text-decoration: underline;
+}
+
+/* set border width */
+table, tr, th, td {
+	border: 1px solid black;
+}
+
+/* table header - th */
+table tr th {
+	font-size: 18px;
+	padding: 1%;
+	/* height: 18px; */
+}
+
+/* table heading - delete */
+table tr td.del-col {
+	text-align: center;
+	width: 5%;
+}
+
+/* table heading - numbering */
+table tr td.num {
+	text-align: center;
+	width: 2%;
+}
+
+/* table heading - payment names */
+table tr td.name {
+	width: 78%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* table heading - price */
+table tr td.price {
+	width: 15%;
+	padding: 2px 3px 2px 10px;
+}
+
+/* table data - td */
+table tr td {
+	height: 30px;
+}
+
+/* only when mousing over the DATA */
+table tr.hover:hover {
+	background-color: Lavender;
+}
+
+/* delete button */
+table tr td.delete-btn {
+	text-align: right;
+}
+
+/* delete option notes */
+table tr.del-notes td {
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+	color: red;
+}
+
+/* student(s) deleted successfully */
+table tr.del-suc td {
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+	color: blue;
+}
+
+/* "delete" button */
+td.delete-btn input[type="submit"] {
+	font-size: 16px;
+	height: 30px;
+	width: 60px;
+	margin: 1%;
+}
+
+/* checkboxes */
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+}
